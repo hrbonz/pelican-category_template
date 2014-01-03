@@ -16,7 +16,7 @@ from pelican import signals
 __author__ = "Stefan \"hr\" Berder"
 __contact__ = "hr@bonz.org"
 __license__ = "BSD 2-Clause"
-__version__ = "v0.0.1-alpha"
+__version__ = "v0.0.1"
 
 SEP = '-'
 
