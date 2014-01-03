@@ -28,9 +28,7 @@ class TestCategoryTpl(unittest.TestCase):
 
     def test_category_with_tpl(self):
         content = Article(content=u'', metadata={u'category': u'misc'})
-        fd = open('article-misc.html', 'w')
-        fd.write('foobar')
-        fd.close()
+        with open('article-misc.html', 'w') as fd: fd.write('foobar')
         category_template(self.generator, content)
         self.assertEqual(content.template, 'article-misc')
         os.remove('article-misc.html')

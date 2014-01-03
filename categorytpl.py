@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 """A `pelican <https://github.com/getpelican/pelican>`_ plugin to apply
 a template based on the category of the content.
 
