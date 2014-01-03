@@ -8,9 +8,31 @@ in the theme or Jinja2 path, it will be used. If not, then the default template
 is used.
 
 
+Install
+-------
+
+Use pip to install the plugin:
+
+.. code:: sh
+
+    $ pip install pelican-category_template
+
+
+Usage
+-----
+
+To use the plugin, add it to the ``PLUGINS`` list in your configuration file.
+Put it in ``pelicanconf.py`` by default::
+
+    PLUGINS = [
+        # ...
+        'categorytpl'',
+    ]
+
+
 Test
 ----
 
-.. code-block:: sh
+.. code:: sh
 
     $ python -m unittest discover
