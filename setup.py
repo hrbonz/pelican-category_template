@@ -17,8 +17,8 @@ setup(
     license = "BSD 2-Clause",
     py_modules=['categorytpl'],
     url = 'https://github.com/hrbonz/pelican-category_template',
-    description='A `pelican <https://github.com/getpelican/pelican>`_'
-    'plugin to apply a template based on the category of the content.',
+    description='A pelican plugin to apply a template based on the '
+    'category of the content.',
     long_description=README,
     install_requires = ['pelican>=3.1.1'],
     classifiers=[
