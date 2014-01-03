@@ -11,7 +11,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name = 'pelican-category_template',
-    version = "v0.0.1",
+    version = "v0.0.2",
     author = "Stefan \"hr\" Berder",
     author_email = "hr@bonz.org",
     license = "BSD 2-Clause",
