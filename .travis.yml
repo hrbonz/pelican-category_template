@@ -6,4 +6,4 @@ python:
 install:
   - python setup.py develop
 script:
-  - python -m unittest discover
+  - python test_categorytpl.py

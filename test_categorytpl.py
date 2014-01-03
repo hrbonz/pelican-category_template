@@ -32,3 +32,6 @@ class TestCategoryTpl(unittest.TestCase):
         category_template(self.generator, content)
         self.assertEqual(content.template, 'article-misc')
         os.remove('article-misc.html')
+
+if __name__ == '__main__':
+    unittest.main()
