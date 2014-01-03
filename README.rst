@@ -22,7 +22,9 @@ Usage
 -----
 
 To use the plugin, add it to the ``PLUGINS`` list in your configuration file.
-Put it in ``pelicanconf.py`` by default::
+Put it in ``pelicanconf.py`` by default:
+
+.. code:: python
 
     PLUGINS = [
         # ...
